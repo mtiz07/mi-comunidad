@@ -1,0 +1,124 @@
+<html lang="es">
+<head>
+<title>San Jerónimo Silacayoapilla</title>
+
+<style>
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: var(--fondo);
+  color: var(--texto);
+}
+
+/* DISEÑO DE MENU */
+header {
+  background: linear-gradient(135deg, #002b5c, #0069c0);
+  color: white;
+  text-align: center;
+  padding: 35px 20px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+}
+
+/* TITULO */
+header h1 {
+  font-size: 3.2rem;
+  color: #ffd166;
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 10px rgba(0,0,0,0.3);
+}
+
+/* SUBTITULO */
+header p {
+  font-size: 1.4rem;
+  margin-bottom: 25px;
+  color: #f1f1f1;
+}
+
+/* MENU */
+nav {
+  margin-top: 20px;
+}
+
+/* BOTONES MENU */
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 1.1rem;
+  font-weight: 500;
+  padding: 10px 18px;
+  border-radius: 30px;
+  transition: 0.3s;
+}
+
+/* EFECTO MENU */
+nav a:hover {
+  background: white;
+  color: #002b5c;
+  transform: translateY(-4px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+/* HERO */
+.hero {  
+  background-size: cover;
+  background-position: center;
+  color: #002b5c;
+  text-align: center;
+  padding: 100px 20px;
+  animation: aparecer 2s ease;
+}
+
+.hero h2{
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.hero p{
+    font-size: 1.3rem;
+}
+
+.btn {
+  background: var(--secundario);
+  color: white;
+  padding: 12px 25px;
+  border-radius: 25px;
+  text-decoration: none;
+  display: inline-block;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #127dd6;
+}
+
+
+nav a.active {
+  background: #0069c0;
+  color: white;
+  box-shadow: 0 0 15px rgba(217,164,65,0-7);
+}
+
+
+/* FOOTER */
+footer {
+  background: #c3e3fd;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+</style>
+
+</head>
+
+<body>
+
+ 
+<footer>
+  <p>© 2026 San Jerónimo Silacayoapilla</p>
+</footer>
+
+</body>
+</html>

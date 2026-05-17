@@ -1,0 +1,100 @@
+ 
+/* Estilos generales */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #e8f5ff;
+    color: #333;
+    line-height: 1.7;
+}
+
+/* Imagen banner */
+.banner {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+    max-height: 400px;
+}
+
+/* Título */
+h1 {
+    text-align: center;
+    color: #2196f3;
+    font-size: 2em;
+    margin: 30px 0 10px;
+}
+
+/* Contenido principal */
+.contenido {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px 30px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    margin-bottom: 30px;
+}
+
+.contenido p {
+    font-size: 1.05em;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+/* Etiqueta descriptiva */
+.etiqueta {
+    text-align: center;
+    font-size: 1.1em;
+    color: #d9a441;
+    font-weight: bold;
+    margin-top: 30px;
+    letter-spacing: 1px;
+}
+
+/* Pie de página */
+footer {
+    background-color: #c3e3fd;
+    color: navy;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.95em;
+}
+
+
+/* EFECTO HOVER */
+
+.contenido {
+    transition: 0.4s;
+}
+
+.contenido:hover {
+
+    transform: translateY(-10px);
+
+    box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+
+}
+
+/* ANIMACION */
+
+@keyframes aparecer {
+
+    from {
+        opacity: 0;
+        transform: translateY(40px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+}
+
+.contenido {
+
+    animation: aparecer 1.5s ease;
+
+}
