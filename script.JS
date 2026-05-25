@@ -21,8 +21,8 @@ titulo.addEventListener("mouseout", function () {
 let boton = document.getElementById("mensajeBtn");
 
 boton.addEventListener("click", function () {
-
-    alert("Bienvenido a San Jerónimo Silacayoapilla");
+  document.getElementById("info").scrollIntoView({
+    behavior: "smooth"
 
 });
 
